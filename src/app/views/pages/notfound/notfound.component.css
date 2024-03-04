@@ -1,0 +1,16 @@
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h404 {
+  font-size: 150px;
+}
+
+span {
+  margin-top: 50px;
+}

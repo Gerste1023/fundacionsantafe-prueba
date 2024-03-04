@@ -1,0 +1,17 @@
+<app-default-header
+  (toggleSideBarForMe)="sideBarToggler()"
+></app-default-header>
+
+<mat-drawer-container>
+  <mat-drawer
+    class="body"
+    [mode]="mobileQuery.matches ? 'over' : 'side'"
+    [opened]="sideBarOpen"
+  >
+    <app-default-sidebar></app-default-sidebar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+<app-default-footer></app-default-footer>

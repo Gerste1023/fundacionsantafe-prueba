@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <button
+    mat-icon-button
+    (click)="toggleSideBar()"
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img mat-card-image src="../../../../assets/img/logoasys.png" />
+  <span> Fundacion Santa Fe de Bogota</span>
+  <span class="example-spacer"></span>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+    (click)="logOut()"
+  >
+    <mat-icon>logout</mat-icon>
+  </button>
+</mat-toolbar>

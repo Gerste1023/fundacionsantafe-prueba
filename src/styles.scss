@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  margin: 10px 20px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fondo-menu {
+  background-color: #14205a;
+  color: white;
+}
+
+.texto-menu {
+  font-size: 0.9rem;
+  padding: 0px 10px;
+  position: relative;
+  top: -5px;
+  left: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+.mov-izq {
+  text-align: end;
+  padding: 0px 15px 20px 0px;
+}
+
+.mov-der {
+  text-align: left;
+  padding: 0px 0px 20px 15px;
+}
+
+.footer {
+  margin-bottom: 50px;
+  margin: 0px 20px 50px 20px;
+}
+
+.titulo {
+  font-family: "Yuji Syuku", serif;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+
+.btn-fundacion-success {
+  background-color: #004e00;
+  border-color: #004e00;
+  color: white;
+}
+
+.btn-fundacion-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.img-ajustada {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-ajustada-responsive {
+  width: 35px;
+  top: 16px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.float {
+  display: block;
+  position: fixed;
+  float: right;
+  bottom: 20px;
+  right: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

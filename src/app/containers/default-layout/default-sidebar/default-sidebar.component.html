@@ -1,0 +1,12 @@
+<div class="body-sidebar">
+  <mat-selection-list #shoes class="lista-menu" [multiple]="false">
+    <mat-list-option
+      *ngFor="let opt of menu"
+      [value]="opt.texto"
+      [routerLink]="opt.ruta"
+    >
+      <mat-icon>{{ opt.icon }}</mat-icon>
+      <span class="lista-menu-texto">{{ opt.texto }}</span>
+    </mat-list-option>
+  </mat-selection-list>
+</div>

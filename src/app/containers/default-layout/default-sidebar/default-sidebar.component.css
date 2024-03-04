@@ -1,0 +1,24 @@
+.body-sidebar {
+  background-color: #F5F5F5;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.lista-menu mat-icon {
+  position: absolute;
+}
+
+.lista-menu-texto {
+  position: relative;
+  left: 30px;
+}

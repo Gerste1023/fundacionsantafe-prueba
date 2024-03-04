@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-drawer {
+  width: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+  mat-drawer {
+    width: 250px;
+  }
+}
+
+mat-drawer-container {
+  height: 100%;
+}
+
+mat-drawer-content {
+  padding: 20px;
+}
+
+.body {
+  background-color: #F5F5F5;
+}
